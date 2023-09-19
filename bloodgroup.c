@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Name[50], G[3], answer[10];
+
+{ char Name[50], G[4], answer[10];
+
   int i;
   do
   {
@@ -9,7 +11,8 @@ void main()
     scanf("%s", Name);
     do
     {
-      printf("What is your blood type [A, B, AB, or O]? ");
+      printf("Your blood group [A, B, AB, or O]: ");
+
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
